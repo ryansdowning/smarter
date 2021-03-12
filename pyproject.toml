@@ -6,8 +6,13 @@ authors = ["Ryan Downing <ryansdowning1@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+opencv-python = "^4.5.1"
 
 [tool.poetry.dev-dependencies]
+jupyter = "^1.0.0"
+jupyterlab = "^3.0.10"
+matplotlib = "^3.3.4"
+seaborn = "^0.11.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
