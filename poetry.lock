@@ -696,6 +696,14 @@ python-versions = "*"
 ptyprocess = ">=0.5"
 
 [[package]]
+name = "phue"
+version = "1.1"
+description = "A Philips Hue Python library"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "pickleshare"
 version = "0.7.5"
 description = "Tiny 'shelve'-like database with concurrency support"
@@ -995,7 +1003,7 @@ notebook = ">=4.4.1"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "80b1704fa681c71e67e28fda60844fb45a89413db9bd8c5ab50f702d69b3ef5d"
+content-hash = "f68c09be9b4eca13e7ce3920e8eecf2f4d1e6c0ea11ab9fe2e93b6894a6e881c"
 
 [metadata.files]
 anyio = [
@@ -1389,6 +1397,9 @@ parso = [
 pexpect = [
     {file = "pexpect-4.8.0-py2.py3-none-any.whl", hash = "sha256:0b48a55dcb3c05f3329815901ea4fc1537514d6ba867a152b581d69ae3710937"},
     {file = "pexpect-4.8.0.tar.gz", hash = "sha256:fc65a43959d153d0114afe13997d439c22823a27cefceb5ff35c2178c6784c0c"},
+]
+phue = [
+    {file = "phue-1.1.tar.gz", hash = "sha256:61facc991a2ead1d727df8513d06ce089033489b6dca09be093db24f7cdb8874"},
 ]
 pickleshare = [
     {file = "pickleshare-0.7.5-py2.py3-none-any.whl", hash = "sha256:9649af414d74d4df115d5d718f82acb59c9d418196b7b4290ed47a12ce62df56"},
